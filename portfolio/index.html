@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manasa Bommagani — Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230a0a0f'/%3E%3Crect width='64' height='64' rx='8' fill='none' stroke='%2300ff88' stroke-width='2'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial Black,sans-serif' font-weight='900' font-size='26' fill='%2300ff88'%3EGK%3C/text%3E%3C/svg%3E"/>
+  <meta name="theme-color" content="#00ff88"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">&lt;<span>Manasa</span>/&gt;</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="assets/bommaganimanasaresume.pdf" download="ManasaBommagani_Resume.docx" class="nav-resume-btn">&#8595; Resume</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Open to opportunities</div>
+    <h1 class="hero-name">
+      <div>Manasa</div>
+      <div class="outline">Bommagani</div>
+      <div><span class="accent">.</span></div>
+    </h1>
+    <p class="hero-desc">
+      <strong>Frontend Developer</strong> specializing in Angular, TypeScript &amp; WordPress.<br/>
+      I build responsive, performant web apps &mdash; from Figma to production.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">See my work &#8595;</a>
+      <a href="mailto:manasabommagani1@gmail.com" class="btn btn-outline">Hire me &rarr;</a>
+      <a href="assets/bommaganimanasaresume.pdf" download="MansaBommagani_Resume.pdf" class="btn btn-download">&#8595; Download Resume</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">2+</div><div class="stat-label">Years exp.</div></div>
+    <div class="stat"><div class="stat-num">2</div><div class="stat-label">Live projects</div></div>
+    <div class="stat"><div class="stat-num">1</div><div class="stat-label">Certification</div></div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="section-label"><span>01 &mdash; About</span></div>
+  <h2 class="section-title">Who I am</h2>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>Hi, I'm <strong>Manasa Bommagani</strong> &mdash; a Frontend Developer based in Hyderabad with 2+ years of hands-on experience crafting web experiences that users love. My stack centers around <strong>Angular, TypeScript,</strong> and <strong>WordPress</strong>, with a deep appreciation for clean architecture and pixel-perfect UI.</p>
+      <p>I thrive at the intersection of design and engineering. I take Figma prototypes and turn them into <strong>fully responsive, production-ready web applications</strong> &mdash; with attention to performance, accessibility, and cross-browser compatibility baked in from the start.</p>
+      <p>Beyond frontend, I manage hosting environments, configure DNS and email, and have a certified foundation in the <strong>ServiceNow platform</strong> &mdash; making me a versatile contributor across technical teams.</p>
+    </div>
+    <div class="about-info">
+      <div class="info-row"><span class="label">Location</span><span class="value">Hyderabad, TS</span></div>
+      <div class="info-row"><span class="label">Status</span><span class="value" style="color:var(--accent)">Open to opportunities</span></div>
+      <div class="info-row"><span class="label">Email</span><span class="value"><a href="mailto:manasabommagani1@gmail.com">manasabommagani1@gmail.com</a></span></div>
+      <div class="info-row"><span class="label">LinkedIn</span><span class="value"><a href="https://www.linkedin.com/in/bommagani-manasa/" target="_blank">linkedin.com/in/bommagani-manasa</a></span></div>
+      <div class="info-row"><span class="label">Phone</span><span class="value">6302423044</span></div>
+      <div class="info-row"><span class="label">Degree</span><span class="value">B.Tech &ndash; ECE, Mahatma Gandhi University</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <div class="section-label"><span>02 &mdash; Skills</span></div>
+  <h2 class="section-title">What I work with</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">👩‍💻</div>
+      <div class="skill-name">Frontend Development</div>
+      <p class="skill-desc">Building fast, type-safe, component-driven UIs with Angular and TypeScript at the core.</p>
+      <div class="skill-tags">
+        <span class="tag">Angular 8+</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span>
+        <span class="tag">HTML5</span><span class="tag">CSS3</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🌐</div>
+      <div class="skill-name">WordPress Development</div>
+      <p class="skill-desc">Built full-cycle WordPress websites from Figma prototypes &mdash;, managing Elementor-based layouts, plugin integration, SEO implementation, and routine backup maintenance..</p>
+      <div class="skill-tags">
+        <span class="tag">Elementor</span><span class="tag">Astra Theme</span><span class="tag">Basic PHP</span>
+        <span class="tag">MySQL</span><span class="tag">Multisite</span><span class="tag">SEO</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">☁️</div>
+      <div class="skill-name">Hosting &amp; Infrastructure</div>
+      <p class="skill-desc">Deploying and managing production sites on cloud and shared hosting with DNS and email config.</p>
+      <div class="skill-tags">
+        <span class="tag">A2 Hosting</span> <span class="tag">cPanel</span><span class="tag">GoDaddy</span>
+       <span class="tag">Route53</span><span class="tag">AWS LightSail</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">⚙️</div>
+      <div class="skill-name">Dev Tools &amp; Workflow</div>
+      <p class="skill-desc">Comfortable with version control, collaborative workflows, and translating design to code from Figma.</p>
+      <div class="skill-tags">
+        <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span>
+        <span class="tag">REST APIs</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-icon">🎫</div>
+      <div class="skill-name">ServiceNow Platform</div>
+      <p class="skill-desc">Certified administrator with hands-on experience in ITSM modules, access control, and form configuration.</p>
+      <div class="skill-tags">
+        <span class="tag">System Admin</span><span class="tag">Incident Mgmt</span>
+        <span class="tag">ACLs</span><span class="tag">Problem Modules</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="section-label"><span>03 &mdash; Projects</span></div>
+  <h2 class="section-title">Things I've built</h2>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <span class="project-number">01</span>
+        <span class="project-type">Angular &middot; HR Tech</span>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Synergy HR Portal</div>
+        <p class="project-desc">A secure, enterprise-grade HR portal enabling complete employee lifecycle management &mdash; from onboarding to payroll and insurance tracking.</p>
+        <ul class="project-highlights">
+          <li>Role-based access control for admins &amp; employees</li>
+          <li>Integrated payroll, insurance &amp; employee data modules</li>
+          <li>REST API integration with backend services</li>
+          <li>Production bug fixes &amp; performance optimization</li>
+        </ul>
+        <div class="project-stack">
+          <span class="stack-tag">Angular</span>
+          <span class="stack-tag">TypeScript</span>
+          <span class="stack-tag">REST APIs</span>
+          <span class="stack-tag">Git</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <span class="project-number">02</span>
+        <span class="project-type">WordPress &middot; Business</span>
+      </div>
+      <div class="project-body">
+        <div class="project-title">WordPress Web Platform</div>
+        <p class="project-desc">Transformed Figma prototypes into high-performance, fully responsive WordPress websites &mdash; optimized for SEO, speed, and long-term maintainability.</p>
+        <ul class="project-highlights">
+          <li>Figma prototypes &rarr; Elementor pixel-perfect implementation</li>
+          <li>SEO optimization for improved organic visibility</li>
+          <li>Domain, hosting &amp; email configuration from scratch</li>
+          <li>Daily snapshots &amp; continuous site monitoring</li>
+        </ul>
+        <div class="project-stack">
+          <span class="stack-tag">WordPress</span>
+          <span class="stack-tag">Elementor</span>
+          <span class="stack-tag">Astra</span>
+          <span class="stack-tag">Basic PHP</span>
+          <span class="stack-tag">SEO</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience">
+  <div class="section-label"><span>04 &mdash; Experience</span></div>
+  <h2 class="section-title">Where I've worked</h2>
+  <div class="timeline reveal">
+    <div class="timeline-item">
+      <div class="timeline-date">Sep 2023<br/>&mdash; Present</div>
+      <div class="timeline-line"></div>
+      <div class="timeline-content">
+        <div class="timeline-role">Frontend Developer</div>
+        <div class="timeline-company">SBaseTechnologies &middot; Hyderabad</div>
+        <ul class="timeline-bullets">
+          <li>Developed and maintained responsive Angular + TypeScript web applications serving real business workflows.</li>
+          <li>Collaborated with backend engineers on REST API integration, reducing data-fetch errors in production.</li>
+          <li>Managed Git branching strategy, pull requests, and coordinated multi-environment deployments.</li>
+          <li>Built and customized a WordPress site from Figma designs using Elementor and Astra theme, improving client UX and SEO performance.</li>
+          <li>Configured hosting, DNS (Route53), cPanel email, and conducted continuous monitoring with daily backups.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="section-label"><span>05 &mdash; Contact</span></div>
+  <h2 class="section-title reveal">Let's work together</h2>
+  <p class="contact-sub reveal">I'm actively looking for new opportunities. Whether you have a project, a role, or just want to connect &mdash; my inbox is always open.</p>
+  <a href="mailto:manasabommagani1@gmail.com" class="contact-email reveal"><span class="__cf_email__"></span>manasabommagani1@gmail.com</span></a>
+  <div style="display:flex;justify-content:center;">
+  <div class="cert-badge reveal">
+    <div class="cert-icon">🏅</div>
+    <div class="cert-info">
+      <div class="cert-name">ServiceNow Certified System Administrator</div>
+      <div class="cert-by">Issued by ServiceNow &middot; Jul 2025 &middot; Verified on Credly</div>
+    </div>
+  </div>
+  </div>
+
+  <div class="social-links reveal">
+    <a href="https://www.linkedin.com/in/bommagani-manasa/" target="_blank" class="social-link">LinkedIn</a>
+    <a href="mailto:manasabommagani1@gmail.com" class="social-link">Email</a>
+    <a href="tel:6302423044" class="social-link">Phone</a>
+    <a href="assets/bommaganimanasaresume.pdf" download="ManasaBommagani_Resume.pdf" class="social-link" style="color:var(--accent);border-color:rgba(0,255,136,.3);">&#8595; Resume</a>
+  </div>
+</section>
+<footer>
+  <span>&copy; 2026 &mdash; Manasa Bommagani</span>
+  <span>Frontend Developer &middot; Hyderabad</span>
+</footer>
+<!-- Floating Resume Download Button -->
+<a href="assets/bommaganimanasaresume.pdf" download="ManasaBommagani_Resume.pdf" class="resume-fab" title="Download Resume">
+  &#128196; Download Resume
+</a>
+<script src="script.js"></script>
+</body>
+</html>
